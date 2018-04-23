@@ -13,7 +13,7 @@ def turn_count (board)
     #   counter += 1
     # end
     # return counter
-    puts "#{x}"
+    puts "this is #{x}"
   end
 
 end
