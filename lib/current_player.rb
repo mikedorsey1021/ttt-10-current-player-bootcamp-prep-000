@@ -7,13 +7,10 @@ board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 def turn_count (board)
   counter = 0
   # index = 0
-  board.each do
+  board.each do |x|
     index = 0
-    if board[index] == "X" || board[index] == "O"
+    if x == "X" || x == "O"
       counter += 1
-    else
-      index += 1
-
     end
     return counter
   end
