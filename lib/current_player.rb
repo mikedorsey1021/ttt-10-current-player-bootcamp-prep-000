@@ -9,7 +9,7 @@ def turn_count (board)
   index = 0
   board.each do |x|
     # index = 0
-    if x == "X" 
+    if x == "X"
     #   counter += 1
     # end
     # return counter
@@ -17,5 +17,5 @@ def turn_count (board)
     elsif x == "O"
       puts "ok it works"
   end
-
+  end 
 end
