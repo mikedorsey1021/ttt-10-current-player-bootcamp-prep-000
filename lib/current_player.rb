@@ -9,11 +9,13 @@ def turn_count (board)
   index = 0
   board.each do |x|
     # index = 0
-    if x == "X" || x == "O"
+    if x == "X" 
     #   counter += 1
     # end
     # return counter
-    puts "this is #{x}"
+      puts "this is one"
+    elsif x == "O"
+      puts "ok it works"
   end
 
 end
