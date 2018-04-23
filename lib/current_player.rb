@@ -10,10 +10,12 @@ def turn_count (board)
   board.each do
     index = 0
     if board[index] == "X" || board[index] == "0"
-
-      index += 1
       counter += 1
+    else
+      index += 1
+
     end
+    return counter
   end
-  return counter
+
 end
